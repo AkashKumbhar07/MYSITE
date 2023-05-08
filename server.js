@@ -3,7 +3,7 @@ var path=require('path');
 var app = express();
 
 //server configuration
-app.use(express.static(path.join(__dirname,'public')));
+app.use(express.static(path.join(__dirname,'Public')));
 
 app.get('/', function (req, res) {
     res.sendFile(path.join(___dirname + '/index.html'));
