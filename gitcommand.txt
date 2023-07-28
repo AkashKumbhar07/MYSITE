@@ -1,0 +1,40 @@
+git command
+
+* git --version
+* sudo apt install git
+
+commit comands
+- git add .
+- git commit -m "no of commits"
+- git status 
+- git push
+
+git clone
+cd to app/file
+
+------------------------------------------------------------------------------------
+**docker commands 
+sudo apt update 
+docker -v
+sudo apt install docker.io
+
+check daemon process status -> sudo systemctl status docker
+
+
+*create docker image -> sudo docker build -t image_name .
+
+*To ckeck docker image is creadted or not -> sudo docker image
+
+run container image -> sudo docker run -d -p 8080:8080 image_name
+
+to stop docker -> sudo systemctl stop docker
+
+------------------------------------------------------------------------------------
+
+commands to deploy application manually
+
+sudo apt install
+sudp apt install node js
+node -v 
+sudo apt install npm
+npm install express
